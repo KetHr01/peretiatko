@@ -1,0 +1,74 @@
+/* Загальні стилі */
+body {
+    background: linear-gradient(135deg, #32a852, #0a1e07);
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+header {
+    text-align: center;
+    margin: 20px 0;
+}
+
+header .log img {
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+main {
+    text-align: center;
+}
+
+.gallery {
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid transparent;
+    border-radius: 15px;
+    padding: 10px;
+    width: 250px;
+    transition: transform 0.3s, border-color 0.3s;
+}
+
+.gallery:hover {
+    transform: scale(1.1);
+    border-color: #1e8e3e;
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+}
+
+.gallery img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.gallery a {
+    display: inline-block;
+    font-size: 1.5rem;
+    color: #fff;
+    text-decoration: none;
+    background: linear-gradient(90deg, #4caf50, #087f23);
+    padding: 10px 20px;
+    border-radius: 20px;
+    transition: background 0.3s;
+}
+
+.gallery a:hover {
+    background: linear-gradient(90deg, #087f23, #4caf50);
+}
+
+footer {
+    margin-top: 30px;
+    font-size: 0.9rem;
+    color: #ddd;
+    text-align: center;
+}
